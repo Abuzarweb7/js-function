@@ -191,15 +191,44 @@
 
 // Create a function that takes 3 sides and returns:
 
-function threeSides(a,b,c){
-    if(a === b && b === c){
-        return "Equilateral";
-    }
-    else if (a === b || b === c || a === c){
-return "Isosceles"
-    }
-    else{
-return "Scalene";
-    }
-} 
-console.log(threeSides(10,10,11));
+// function threeSides(a,b,c){
+//     if(a === b && b === c){
+//         return "Equilateral";
+//     }
+//     else if (a === b || b === c || a === c){
+// return "Isosceles"
+//     }
+//     else{
+// return "Scalene";
+//     }
+// } 
+// console.log(threeSides(10,10,11));
+
+//Q19
+// Write a function that takes a price and discount percentage, and returns the discounted
+// price.
+
+// function calculate(price,dicount){
+//    let amount = price *(dicount /100);
+//    let dicountedPrice =price - amount;
+//    return dicountedPrice;
+// }
+// console.log(calculate(1000,40));
+
+
+
+
+
+// Q20
+
+// Write a function that takes a password and checks if its length is 8 characters or more.
+// Return "Valid Password" or "Too Short".
+// function passwordCheck(password){
+// if(password.length >= 8){
+//     return "Valid Password";
+// } 
+// else{
+//     return "Too Short";
+// }
+// }
+// console.log(passwordCheck("12345679"));
