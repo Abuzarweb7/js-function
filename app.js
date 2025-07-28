@@ -100,3 +100,106 @@
 //     }
 // }
 // console.log(isGreater(20,10));
+
+
+
+// /Q11
+// Write a function that takes a first name and last name, and returns the full name.
+// function userName(fullName, lastName){
+//     return "Hello!" +  fullName + " " + lastName 
+// }
+// console.log(userName("Abu zar" , "M shahi"));
+
+
+
+// Q12
+// Write a function that takes a first name and last name, and returns the full name.
+// function userResult (marks){
+//     if(marks >=40){
+//         return "Pass";
+//     }
+//     else{
+//         return "Fail"
+//     }
+// }
+// console.log(userResult(50));
+//Q13 
+// Write a function that takes an age and returns "Teenager" if the age is between 13
+// and 19, otherwise return "Not a Teenager".
+// function isTeenager(age){
+//     if(age >=13 && age<=19){
+//         return "Teenager"
+//     }
+//     else {
+//         return "Not a teenager";
+//     }
+// }
+// console.log(isTeenager(19));
+// Q14
+// Write a function that takes a name and returns a greeting like "Hello, Ahmed!".
+// function greetUser(name){
+//     return "Hello " + name + "!";
+// }
+// console.log(greetUser("Ali"));
+// console.log(greetUser("faiz"));
+// Q15
+// Create a function that takes age and returns "Eligible" if age is 18 or above,
+// otherwise "Not Eligible".
+// function checkEligible(age){
+// if(age>=18){
+//     return "Eligible";
+// }
+// else{
+//     return "Not Eligible";
+// }
+// }
+// console.log(checkEligible(20));
+//Q16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q17
+// Write a function that takes a temperature and returns:
+// function temprature(temp){
+//     if(temp>=30){
+//         return "Hot";
+//     }
+//     else if(temp<=10){
+// return "Cold";
+//     }
+//     else{
+//         return "Normal";
+//     }
+// }
+// console.log(temprature(10));
+
+
+
+// /Q18
+
+// Create a function that takes 3 sides and returns:
+
+function threeSides(a,b,c){
+    if(a === b && b === c){
+        return "Equilateral";
+    }
+    else if (a === b || b === c || a === c){
+return "Isosceles"
+    }
+    else{
+return "Scalene";
+    }
+} 
+console.log(threeSides(10,10,11));
