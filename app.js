@@ -155,9 +155,18 @@
 // }
 // console.log(checkEligible(20));
 //Q16
+// Write a function that returns the absolute value of a number (no Math.abs, use if-else
+// only).
 
-
-
+// function absultevalnum(num){
+//   if(num<0){
+//     return -num;
+//   }
+//   else{
+//     return num;
+//   }
+// }
+// console.log(absultevalnum(-10));;
 
 
 
